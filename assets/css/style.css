@@ -1,0 +1,30 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "DM Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Common */
+.btn {
+    background-color: #5d3bee;
+    color: #fdfdfd;
+    border-radius: 0px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 1.8rem;
+    width: 170px;
+    height: 62px;
+}
