@@ -105,6 +105,10 @@ a {
     overflow: hidden;
 }
 
+.hero .row {
+    --bs-gutter-x: 3rem;
+}
+
 .hero-deco {
     z-index: 1;
     position: absolute;
@@ -232,6 +236,10 @@ a {
 .special__desc {
     text-align: center;
     margin: 20px auto 60px;
+}
+
+.special__row {
+    --bs-gutter-x: 3rem;
 }
 
 .special__content {
