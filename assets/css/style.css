@@ -278,6 +278,7 @@ a {
 .project {
     background-color: #5d3bee;
     margin-top: 172px;
+    padding-bottom: 86px;
 }
 
 .project__top {
@@ -366,4 +367,11 @@ a {
     color: #080415;
     text-decoration: underline;
     text-decoration-style: solid;
+}
+
+.project__cta {
+    margin: 80px auto 0px;
+    background-color: #ffffff;
+    color: #080415;
+    display: block;
 }
