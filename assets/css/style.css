@@ -42,6 +42,11 @@ a {
     color: #51586a;
 }
 
+.row {
+    --bs-gutter-x: 3rem;
+    --bs-gutter-y: 3rem;
+}
+
 /* Header */
 .header {
     background-color: #fbfaff;
@@ -245,6 +250,15 @@ a {
 .special__content {
     padding: 33px 0px 32px 43px;
     background-color: #fbfaff;
+    transition: 0.5s;
+}
+
+.special__content:hover {
+    position: relative;
+    top: -20px;
+    background-color: #7b9beb;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 .special__item-heading {
@@ -258,4 +272,98 @@ a {
 
 .special__item-desc {
     max-width: 285px;
+}
+
+/* Project */
+.project {
+    background-color: #5d3bee;
+    margin-top: 172px;
+}
+
+.project__top {
+    padding-top: 56px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.project__desc {
+    max-width: 370px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #ffffff;
+    opacity: 70%;
+}
+
+.project__heading {
+    max-width: 468px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 5.6rem;
+    line-height: 66px;
+    color: #fff;
+    margin-right: 220px;
+}
+
+.project__item {
+    background-color: #fbfaff;
+    position: relative;
+}
+
+.project__item-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 23px 23px 34px;
+}
+
+.project__info {
+    margin-top: 20px;
+}
+
+.project__img {
+    z-index: 2;
+    width: 246px;
+    height: 187px;
+    position: relative;
+}
+
+.project__deco1 {
+    z-index: 1;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.project__deco2 {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+}
+
+.project__info-heading {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 3.2rem;
+    color: #080415;
+}
+
+.project__info-desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 23px;
+    color: #51586a;
+    margin: 5px 0 20px;
+    max-width: 220px;
+}
+
+.project__link {
+    display: inline-block;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 1.8rem;
+    color: #080415;
+    text-decoration: underline;
+    text-decoration-style: solid;
 }
