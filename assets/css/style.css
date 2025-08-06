@@ -375,3 +375,74 @@ a {
     color: #080415;
     display: block;
 }
+
+/* interactive */
+.inter {
+    margin-top: 140px;
+}
+.inter__slogan {
+    display: block;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 3.2rem;
+    color: #5d3bee;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.inter__slogan::after {
+    content: url(../img/hand.svg);
+    margin-left: 9px;
+}
+
+.inter__heading {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 5.6rem;
+    color: #080415;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.inter__desc {
+    text-align: center;
+    margin: 0 auto 70px;
+    max-width: 570px;
+}
+
+.inter__line {
+    width: 946px;
+    height: 1px;
+    background-color: #080415;
+    opacity: 20%;
+    margin: 0 auto;
+}
+
+.inter__stat {
+    display: flex;
+    gap: 140px;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.inner__num {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 5.6rem;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 5%;
+    color: #080415;
+}
+
+.inner__label {
+    font-weight: 400;
+    font-size: 18px;
+    color: #51586a;
+}
+
+iframe {
+    display: block;
+    margin: 70px auto 0;
+}
